@@ -2,6 +2,8 @@
 
 `kostolany.wisdom`를 위한 로컬 뉴스·콘텐츠 작업실입니다. React + TypeScript, FastAPI, SQLite로 구성했습니다. 뉴스 수집부터 우선순위 선정, 책 근거 검색, 영어 원고, 캐러셀 PNG·자막 릴스 MP4, 검수, Buffer 예약과 게시 상태·성과 조회까지 연결합니다.
 
+실제 Instagram 게시와 운영 자동화를 완성하기 위한 추가 작업은 [Instagram 연동 백로그](docs/INSTAGRAM_INTEGRATION_BACKLOG.md)에 우선순위·선행 작업·완료 기준과 함께 정리했습니다.
+
 ## 실행
 
 1. 이 폴더의 `.env`에 `OPENAI_API_KEY`를 입력합니다. 현재 빈 파일이 준비되어 있습니다. 키를 채팅이나 화면에 붙여 넣을 필요는 없습니다.
